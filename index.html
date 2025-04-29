@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat Room</title>
+    <title>Oldroblox Chat</title>
     <link rel="image/png" href="favicon.png">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <h1>Oldrobloxchat</h1>
+    </header>
     <div id="login-section">
         <form id="login-form">
-            <input type="text" id="nickname" placeholder="Enter your nickname" required>
-            <input type="text" id="room-id" placeholder="Enter room ID" required>
+            <input type="text" id="nickname" placeholder="Enter your nickname">
+            <input type="text" id="room-id" placeholder="Enter room ID">
             <button type="submit">Join Room</button>
         </form>
-        <button id="create-room">Generate Room ID</button>
+        <button id="create-room">Create New Room</button>
     </div>
     <div id="chat-section" class="hidden">
         <div id="chat-header">
@@ -23,11 +26,10 @@
         </div>
         <div id="chat-messages"></div>
         <form id="message-form">
-            <input type="text" id="message-input" placeholder="Type a message" required>
+            <input type="text" id="message-input" placeholder="Type a message">
             <button type="submit">Send</button>
         </form>
     </div>
-
     <script type="module" src="script.js"></script>
 </body>
 </html>
