@@ -4,11 +4,13 @@ import { getFirestore, collection, addDoc, query, orderBy, onSnapshot, serverTim
 
 // Your Firebase configuration
 const firebaseConfig = {
-
-
- "*****Your API DATA****"
-
-
+ apiKey: "AIzaSyC4z6j8dnuMr00t4wpWOgALdMRPie1S0zM",
+  authDomain: "zchatroom-474a7.firebaseapp.com",
+  projectId: "zchatroom-474a7",
+  storageBucket: "zchatroom-474a7.appspot.com",
+  messagingSenderId: "825247983511",
+  appId: "1:825247983511:web:f11ece6a7c3bccac0746d2",
+  measurementId: "G-2HTB8FRN8P"
 };
 
 // Initialize Firebase
